@@ -1,0 +1,56 @@
+h2 {
+  margin-top: 2cm;
+  text-align: center;
+  color: rgb(229, 135, 135);
+  font-size: 0.8cm;
+  text-shadow: 3px 3px rgb(107, 194, 107);
+
+}
+
+.container {
+  color:font;
+  display: flex;
+  text-align: center;
+}
+
+div.item {
+  text-align: center;
+  color: cs;
+  text-shadow: 3px 3px black;
+  margin-left: 2cm;
+  margin-top: 1cm;
+}
+
+#item1 {
+  text-align: center;
+  margin-left: 0cm;
+  margin-top: 1cm;
+}
+
+.para {
+  margin: 2px;
+  margin-top: 2cm;
+  text-align: left;
+  color: azure;
+}
+
+.box {
+  height: 5cm;
+  width: 5cm;
+  background-color: rgb(237, 146, 147);
+  box-shadow: 0.2cm 0.2cm 0.2cm rgb(150, 218, 150);
+  color: font;
+  margin-top: 2cm;
+  margin-left: 40%;
+  text-align: center;
+}
+
+footer{
+  align-items: center;
+  justify-content: center;
+  padding-left: 35%;
+  padding-right: 38%;
+  margin-top: 2cm;
+  background-color: rgb(124, 123, 123);
+  color: white;
+}

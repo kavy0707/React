@@ -1,0 +1,13 @@
+const amountReducer = (state = 0, action) => {
+    console.log("Reducer called with action:", action); // Debugging line
+    switch (action.type) {
+        case "DEPOSIT":
+            return state + action.payload;
+        case "WITHDRAW":
+            return state - action.payload;
+        default:
+            return state;
+    }
+};
+
+export default amountReducer;
